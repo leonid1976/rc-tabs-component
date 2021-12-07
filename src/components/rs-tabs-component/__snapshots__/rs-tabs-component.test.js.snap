@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tabs component should render Tabs componen 1`] = `
+<Tabs
+  tags={
+    Array [
+      "TAB 1",
+      "TAB 2",
+      "TAB 3",
+    ]
+  }
+>
+  <div
+    className="tabs deffault-style"
+  >
+    <div
+      className="tags"
+    >
+      <div
+        className="tag-item active"
+        id="tag-0"
+        key="tag0"
+        onClick={[Function]}
+      >
+        TAB 1
+      </div>
+      <div
+        className="tag-item "
+        id="tag-1"
+        key="tag1"
+        onClick={[Function]}
+      >
+        TAB 2
+      </div>
+      <div
+        className="tag-item "
+        id="tag-2"
+        key="tag2"
+        onClick={[Function]}
+      >
+        TAB 3
+      </div>
+    </div>
+    <div
+      className="tabs_content"
+    >
+      <div
+        className="content-item active"
+        id={0}
+        key="tab-content0"
+      >
+        <Content1>
+          <div>
+            Content 1
+          </div>
+        </Content1>
+      </div>
+      <div
+        className="content-item "
+        id={1}
+        key="tab-content1"
+      >
+        <Content2>
+          <div>
+            Content 2
+          </div>
+        </Content2>
+      </div>
+      <div
+        className="content-item "
+        id={2}
+        key="tab-content2"
+      >
+        <Content3>
+          <div>
+            Content 3
+          </div>
+        </Content3>
+      </div>
+    </div>
+  </div>
+</Tabs>
+`;

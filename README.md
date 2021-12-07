@@ -1,70 +1,105 @@
-# Getting Started with Create React App
+# rs-tabs-component
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Simple React Tabs component with 4 different styles including Materialize and Bootstrap
 
-## Available Scripts
+[![NPM version][npm-image]][npm-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi)
 
-In the project directory, you can run:
+## Feature
 
-### `yarn start`
+4 differnt styles.
+rs-tabs-components can render conponents and plain JSX
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## install
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+yarn add rs-tabs-component
+```
 
-### `yarn test`
+or
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install --save rs-tabs-component
+```
 
-### `yarn build`
+## Basic Example
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+import Tabs  from './components/rs-tabs-component/rs-tabs-component'
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+function App() {
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  const tags = ['TAB 1', 'TAB 2', 'TAB 3', 'TAB 4']; //the array or names of tabs
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  const Conten1 = () => {
+    return (
+    //.....//
+    )
+  }
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  const Conten2 = () => {
+    return (
+    //.....//
+    )
+  }
 
-## Learn More
+  return (
+    <Tabs tags={tags}
+          style_type='material'>
+      <Content1/>
+      <Content2/>
+      <div>
+        <h3>
+          Tab 3 Content
+        </h3>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+        </p>
+      </div>
+      <div>
+        <h3>
+          Tab 4 Content
+        </h3>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </Tabs>
+  )
+}
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Options
 
-### Code Splitting
+**tags** - the array of the names of the tags
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**style_type** - defines the styling of the element. Values:
 
-### Analyzing the Bundle Size
+1. material
+2. bootstrap
+3. button
+4. void/default
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**material**
 
-### Making a Progressive Web App
+<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/material.png' width='610'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**bootstrap**
 
-### Advanced Configuration
+<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/bootstrap.png' width='610'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**button**
 
-### Deployment
+<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/button.png' width='610'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**default**
 
-### `yarn build` fails to minify
+<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/default.png' width='610'>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+
+rc-tabs-component is released under the MIT license.

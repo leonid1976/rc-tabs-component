@@ -1,0 +1,111 @@
+.tabs {
+	padding: 10px;
+}
+
+.tags {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 auto 1rem auto;
+}
+
+.tags .tag-item {
+  display: inline-block;
+  padding: 0.5em 1.4em;
+  cursor: pointer;
+  font-weight: 500;
+  /* border: 1px solid #d6d6d6; */
+  transition: background 0.25s ease-in-out;
+  text-align: center;
+}
+
+.tags .tag-item.active {
+  /* background-color: #d6d6d6; */
+}
+
+
+.tabs_content > .content-item {
+		position: relative;
+		z-index: 1;
+		padding: 0px;
+		display: none;
+		max-width: 700px;
+	}	
+
+
+.tabs_content > .content-item.active {
+  display: block;
+}
+
+
+
+
+.material-style .tags {
+	padding-bottom: 3px;
+}
+
+.material-style .tag-item {
+	border: none;
+	color: #f58b90;
+}
+.material-style .tag-item:hover {
+	color: #f15258;
+}
+
+.material-style .tag-item.active {
+	background-color: transparent;
+	border: none;
+	color: #f15258;
+} 
+
+.material-style .indicator {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 3px;
+	background-color: #f15258;
+	transition: all 0.3s;
+}
+
+.bootstrap-style .tags {
+	border-bottom: 1px solid #dee2e6;
+}
+
+.deffault-style .tags {
+	border-bottom: 2px solid #a4a5a7;
+}
+
+.deffault-style .tag-item.active {
+	background-color: #e5e8eb;
+}
+
+
+
+.bootstrap-style .tag-item {
+	border: 1px solid transparent;
+	margin-bottom: -1px;
+	color: #007bff;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	transition: all 0.3s;
+}
+
+.bootstrap-style .tag-item.active {
+	color: #495057;
+	border-color: #dee2e6 #dee2e6 #fff;
+	background-color: transparent;
+} 
+
+.button-style .tag-item {
+	border: 1px solid #d6d6d6;
+}
+
+.button-style .tags .tag-item.active {
+  background-color: #d6d6d6;
+}
+
+
+
+

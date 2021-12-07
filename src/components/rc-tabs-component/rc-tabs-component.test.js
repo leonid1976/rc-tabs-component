@@ -2,7 +2,7 @@ import React from "react";
 import Enzyme, { shallow, render, mount } from "enzyme";
 import Adapter from "@wojtekmaj/enzyme-adapter-react-17";
 import toJson from "enzyme-to-json";
-import Tabs from "./rs-tabs-component";
+import Tabs from "./rc-tabs-component";
 
 // React 16 Enzyme adapter
 Enzyme.configure({ adapter: new Adapter() });

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Tabs  from './components/rs-tabs-component/rs-tabs-component'
+import Tabs  from './components/rc-tabs-component/rc-tabs-component'
 
 function App() {
 

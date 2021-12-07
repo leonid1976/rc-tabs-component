@@ -1,31 +1,33 @@
-# rs-tabs-component
+# rc-tabs-component
 
 ### Simple React Tabs component with 4 different styles including Materialize and Bootstrap
 
 [![NPM version][npm-image]][npm-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi)
+[npm-image]: http://img.shields.io/npm/v/rc-tabs.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/rc-tabs-component
 
 ## Feature
 
 4 differnt styles.
-rs-tabs-components can render conponents and plain JSX
+rc-tabs-components can render conponents and plain JSX
 
 ## install
 
 ```bash
-yarn add rs-tabs-component
+yarn add rc-tabs-component
 ```
 
 or
 
 ```bash
-npm install --save rs-tabs-component
+npm install --save rc-tabs-component
 ```
 
 ## Basic Example
 
 ```js
 
-import Tabs  from './components/rs-tabs-component/rs-tabs-component'
+import Tabs  from 'rc-tabs-component'
 
 
 
@@ -86,19 +88,19 @@ function App() {
 
 **material**
 
-<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/material.png' width='610'>
+<img src='https://github.com/leonid1976/rc-tabs-component/blob/master/screenshots/material.png' width='610'>
 
 **bootstrap**
 
-<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/bootstrap.png' width='610'>
+<img src='https://github.com/leonid1976/rc-tabs-component/blob/master/screenshots/bootstrap.png' width='610'>
 
 **button**
 
-<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/button.png' width='610'>
+<img src='https://github.com/leonid1976/rc-tabs-component/blob/master/screenshots//button.png' width='610'>
 
 **default**
 
-<img src='https://github.com/leonid1976/rs-tabs-component/screenshots/default.png' width='610'>
+<img src='https://github.com/leonid1976/rc-tabs-component/blob/master/screenshots/default.png' width='610'>
 
 ## License
 

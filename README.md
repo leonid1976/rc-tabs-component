@@ -2,9 +2,8 @@
 
 ### Simple React Tabs component with 4 different styles including Materialize and Bootstrap
 
-[![NPM version][npm-image]][npm-url] [![dumi](https://img.shields.io/badge/docs%20by-dumi-blue?style=flat-square)](https://github.com/umijs/dumi)
-[npm-image]: http://img.shields.io/npm/v/rc-tabs.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-tabs-component
+
+
 
 ## Feature
 
